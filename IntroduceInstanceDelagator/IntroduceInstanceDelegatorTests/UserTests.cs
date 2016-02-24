@@ -7,7 +7,6 @@ namespace IntroduceInstanceDelegatorTests
     [TestClass()]
     public class UserTests
     {
-
         [TestMethod()]
         public void ShouldDeactivateUser()
         {
@@ -19,7 +18,6 @@ namespace IntroduceInstanceDelegatorTests
 
             // then
             Assert.IsFalse(user.Active);
-
         }
 
         [TestMethod()]
@@ -32,8 +30,8 @@ namespace IntroduceInstanceDelegatorTests
             user.Deactivate();
 
             // then
-            Assert.Fail("How do I test it?");
+            DateTime? howToSetCorrectExpectedValue = null;
+            Assert.AreEqual(howToSetCorrectExpectedValue, user.DeactivatedAt);
         }
-
     }
 }

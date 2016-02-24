@@ -8,13 +8,13 @@ namespace BreakOutMethodObjectTests
     public class OrderControllerTest
     {
         [TestMethod()]
-        public void TotalShouldBeZeroForEmptyProductList()
+        public void TotalShouldBeZeroForEmptyOrder()
         {
             // given
-            OrderController orderController = new OrderController();
+            var orderController = new OrderController();
 
             // when
-            int total = orderController.TotalFor(new List<OrderItem>());
+            var total = orderController.TotalFor(new List<OrderItem>());
             
             // then
             Assert.Equals(0, total);

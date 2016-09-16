@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyBreakingExamples", "DependencyBreakingExamples\DependencyBreakingExamples.csproj", "{56C222A4-9249-4188-AB52-FD85CA5CC9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyBreakingExample.Tests", "DependencyBreakingExample.Tests\DependencyBreakingExample.Tests.csproj", "{442CF121-8796-42B4-8029-FD2006E08BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C222A4-9249-4188-AB52-FD85CA5CC9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C222A4-9249-4188-AB52-FD85CA5CC9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C222A4-9249-4188-AB52-FD85CA5CC9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C222A4-9249-4188-AB52-FD85CA5CC9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442CF121-8796-42B4-8029-FD2006E08BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CF121-8796-42B4-8029-FD2006E08BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442CF121-8796-42B4-8029-FD2006E08BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442CF121-8796-42B4-8029-FD2006E08BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
